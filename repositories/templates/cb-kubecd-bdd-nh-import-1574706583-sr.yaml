@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: bdd-nh-import-1574706583
+  name: cb-kubecd-bdd-nh-import-1574706583
+spec:
+  description: Imported application for cb-kubecd/bdd-nh-import-1574706583
+  httpCloneURL: https://github.com/cb-kubecd/bdd-nh-import-1574706583.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-nh-import-1574706583
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/bdd-nh-import-1574706583.git
